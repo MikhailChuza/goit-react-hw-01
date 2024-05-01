@@ -1,0 +1,29 @@
+.Table {
+  width: 700px;
+  border-collapse: collapse;
+  margin: 15px auto;
+}
+
+.Table th,
+.Table td {
+  padding: 8px;
+  text-align: center;
+}
+
+.Table th {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+
+.Table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.Table tbody tr:nth-child(even) {
+  background-color: white;
+}
+
+.Table tbody td {
+  vertical-align: middle;
+}
