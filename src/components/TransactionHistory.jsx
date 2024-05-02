@@ -11,8 +11,8 @@ const TransactionHistory = ({ transactions }) => {
         </tr>
       </thead>
       <tbody>
-        {transactions.map((transaction, index) => (
-          <tr key={index} id={transaction.id}>
+        {transactions.map((transaction) => (
+          <tr key={transaction.id}>
             <td>{transaction.type.toUpperCase()}</td>
             <td>{transaction.amount}</td>
             <td>{transaction.currency}</td>
